@@ -1,0 +1,112 @@
+.recipe_tittle {
+  top: 0px;
+  left: 0px;
+  width: 353px;
+  height: 67px;
+  text-align: left;
+  font: normal normal normal 67px/80px "clubhouse";
+  letter-spacing: 0px;
+  color: $textred;
+  padding-left: 5%;
+  margin-top: 3%;
+}
+.recipe_container {
+  background: transparent linear-gradient(180deg, $whiterecipe 0%, $white 100%)
+    0% 0% no-repeat padding-box;
+  box-shadow: 4px 6px 10px $grayrecipe;
+  opacity: 1;
+  border-radius: 16px;
+  margin-bottom: 15%;
+  top: 660px;
+  left: 70px;
+  width: 266px;
+  height: 270px;
+  margin-top: 8%;
+
+  // &:hover {
+  //   top: 661px;
+  //   left: 654px;
+  //   width: 266px;
+  //   height: 332px;
+  // }
+}
+.recipe_containerfood {
+  position: relative;
+}
+.recipe_food {
+  position: absolute;
+  left: 14%;
+  top: -22%;
+}
+.recipe_containertext {
+  align-items: flex-end;
+  padding-top: 10%;
+  width: 266px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+.recipe_textfood {
+  font: normal normal normal 30px/36px "poppins";
+  letter-spacing: -0.6px;
+  color: $textred;
+  opacity: 1;
+  top: 0px;
+  left: 0.12558746337890625px;
+  width: 119px;
+  height: 43px;
+}
+.recipe_textsubfood {
+  font: normal normal normal 30px/36px "clubhouse";
+  letter-spacing: -0.6px;
+  color: $textred;
+  margin-bottom: 9%;
+  top: 0px;
+  left: 119px;
+  width: 81px;
+  height: 43px;
+}
+
+.recipe_containericon {
+  padding-top: 9%;
+  padding-left: 5%;
+  width: 266px;
+  align-items: center;
+  display: flex;
+}
+
+.recipe_star {
+  align-items: center;
+  display: flex;
+  top: 886px;
+  left: 82px;
+  width: 23px;
+  height: 23px;
+  background: transparent url("../../assets/icons/ic_star.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+
+  p {
+    padding-top: 15%;
+    padding-left: 150%;
+    text-align: left;
+    font: normal normal normal 26px/39px "poppins";
+    letter-spacing: -0.52px;
+    color: $textgrey;
+    opacity: 1;
+  }
+}
+
+.recipe_heart {
+  padding-bottom: 0%;
+  margin-left: 72%;
+  align-items: center;
+  width: 20px;
+  height: 19px;
+  transform: matrix(1, 0.02, -0.02, 1, 0, 0);
+  border: 1px solid var(--unnamed-color-d84a4a);
+  background: transparent url("../../assets/icons/ic-favorite.svg") 0% 0%
+    no-repeat padding-box;
+  border: 1px $textred;
+  opacity: 1;
+}

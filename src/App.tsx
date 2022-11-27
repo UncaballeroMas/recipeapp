@@ -1,10 +1,19 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./styles/styles.scss";
+import Navbar from "./component/navbar";
+import Frontpage from "./component/frontPage";
 import Recipe from "./component/recipe";
+import Footer from "./component/footer";
 
 function App() {
-  return <Recipe />;
+  return (
+    <div className="app_container">
+      <Navbar />
+      <Frontpage />
+      <Recipe />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

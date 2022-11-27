@@ -1,0 +1,57 @@
+.navbar_container {
+  background: $white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px $boxgray;
+  display: flex;
+  margin: auto;
+  opacity: 1;
+  width: 1280px;
+  height: 69px;
+}
+
+.navbar_textbar {
+  padding-left: 15%;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+  padding-right: 4%;
+
+  p {
+    font: 13px/20px "poppinsmedium";
+    color: $textgrey;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+
+    &:hover {
+      color: $textred;
+      opacity: 1;
+    }
+  }
+}
+
+.navbar_logo {
+  color: $textgrey;
+  font: normal normal normal 40px/48px "clubhouse";
+  text-align: left;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 6%;
+
+  p {
+    text-transform: capitalize;
+    opacity: 1;
+    letter-spacing: 1.15px;
+  }
+}
+.navbar_logoap {
+  color: $textred;
+  font: normal normal normal 30px/46px "poppins";
+  margin: auto;
+  p {
+    text-align: left;
+    letter-spacing: 0.86px;
+    opacity: 1;
+  }
+}
