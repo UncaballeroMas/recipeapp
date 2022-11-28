@@ -1,0 +1,19 @@
+.carrousel_tittle {
+  top: 0px;
+  left: 0px;
+  width: 353px;
+  height: 67px;
+  text-align: left;
+  font: normal normal normal 67px/80px "clubhouse";
+  letter-spacing: 0px;
+  color: $textred;
+  padding-left: 5%;
+  margin-top: 3%;
+}
+.carrousel_container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 120px;
+}
